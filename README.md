@@ -24,7 +24,7 @@ Lê as tabelas locais em formato de dataframe, conecta com o Postgres Local e in
 Conecta com o Postgres Local, armazena os dados retornados da query em uma lista, Conecta com o Postgres da Nuvem, e migra os dados da lista nas tabelas da nuvem.
 
 ## Notebook Pandas
-Conecta com o Postgres da Nuvem, armazena os dados retornados da query em uma lista, e em seguida em um DataFrame. Logo após, os dataframes são analisados e tratados. E por fim, conecta com a intancia onde o Cassandra esta instalado, e migra os dados normalizados para as tabelas do Banco Não-Relacional.
+Conecta com o Postgres da Nuvem, armazena os dados retornados da query em uma lista, e em seguida em um DataFrame. Logo após, os dataframes são analisados e tratados. E por fim, conecta com a instância onde o Cassandra esta instalado, e migra os dados normalizados para as tabelas do Banco Não-Relacional.
 
 ## Notebook Pyspark
 Conecta com a intancia onde o Cassandra esta instalado, armazena os dados retornados da query em uma lista, e em seguida em um DataFrame. Logo após, os dataframes são analisados para gerar pré-insights. E por fim, a tabela normalizada é salva no Cloud Storage em formato Parquet.
